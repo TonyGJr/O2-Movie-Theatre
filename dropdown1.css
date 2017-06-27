@@ -1,0 +1,17 @@
+body {
+    background: palegreen;
+    font-family: arial;
+    color:white;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li {
+    float: left;
+    widows: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+}
