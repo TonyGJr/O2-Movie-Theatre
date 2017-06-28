@@ -21,3 +21,14 @@ nav ul li a:hover {
   color: black;
   border-radius: 5px;
 }
+
+.info {
+     float: left;
+}
+
+.showtimes {
+    background-color:black;
+    color:white;
+    padding:20px;
+    float:right;
+}
