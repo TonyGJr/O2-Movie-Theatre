@@ -1,3 +1,4 @@
 body {
-    background: #7fff7f;
+   background: url('snow2.jpg');  
+   background-size: cover; 
 }
