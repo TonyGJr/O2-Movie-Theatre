@@ -68,5 +68,18 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-
+@font-face {
+    font-family: bullyFont;
+    src: url(bullyfont.ttf);
+}
+@font-face {
+  font-family: funSized;
+  src: url(FunSized.ttf);
+}
+h1 {
+    font-family: bullyFont;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 50px;
+}
