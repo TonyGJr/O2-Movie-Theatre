@@ -69,14 +69,11 @@ li.dropdown {
     display: block;
 }
 
-
 .title {
   display: block;
   width: 60%;
   margin: 0 auto; 
   background-color:  rgba(0,0,0,0.5);
-  text-align: right;
-  color: white;
   height: 51px;
 }
 
@@ -94,10 +91,10 @@ li.dropdown {
     src: url(jellycrazies.ttf);
 }
 h1 {
-    font-family: jellycrazies;
-    color: black;
+    font-family: funSized;
+    color: white;
     text-align: center;
-    font-size: 100px;
-    margin-top: -20px;
+    font-size: 45px;
+    margin-top: 45px;
     font-weight: bold;
 }
