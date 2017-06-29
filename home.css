@@ -68,6 +68,19 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+.title {
+  display: block;
+  width: 60%;
+  margin: 0 auto; 
+  background-color:  rgba(0,0,0,0.5);
+  text-align: right;
+  color: white;
+  height: 51px;
+}
+
+
 @font-face {
     font-family: bullyFont;
     src: url(bullyfont.ttf);
@@ -76,10 +89,15 @@ li.dropdown {
   font-family: funSized;
   src: url(FunSized.ttf);
 }
+@font-face {
+    font-family: jellyCrazies;
+    src: url(jellycrazies.ttf);
+}
 h1 {
-    font-family: bullyFont;
-    color: white;
+    font-family: jellycrazies;
+    color: black;
     text-align: center;
     font-size: 100px;
-    margin-top: 50px;
+    margin-top: -20px;
+    font-weight: bold;
 }
