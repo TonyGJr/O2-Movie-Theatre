@@ -85,7 +85,7 @@ li.dropdown {
 
 /* Add some shadows to create a card effect */
 .card {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
 }
 
 /* Some left and right padding inside the container */
