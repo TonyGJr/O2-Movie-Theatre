@@ -1,10 +1,11 @@
 body {
-   background: url('snow2.jpg');  
+   background: url('treechair.jpg');  
    background-size: cover; 
 }
 
 nav {
-   background-color: #333;
+   background-color: rgba(0,0,0,0.5);
+   
 }
 
 .nav-wrapper {
@@ -33,10 +34,11 @@ li a, .dropbtn {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: slateblue;
+    background-color: rgba(0,155,0,0.8); 
 }
 
 li.dropdown {
@@ -61,7 +63,7 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: hsl(120, 0%, 65%)}
 
 .dropdown:hover .dropdown-content {
     display: block;
