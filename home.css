@@ -89,6 +89,7 @@ li.dropdown {
     transition: all 0.3s ease;
     color: white;
     font-size: 35px;
+    margin-top: 10px;
 }
 
 .icon-bar a:hover {
