@@ -79,7 +79,7 @@ li.dropdown {
 
 .icon-bar {
     width:90px;
-    margin-top: 10px;
+    
 }
 
 .icon-bar a {
@@ -88,7 +88,7 @@ li.dropdown {
     padding: 16px;
     transition: all 0.3s ease;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .icon-bar a:hover {
