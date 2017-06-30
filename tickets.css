@@ -73,16 +73,6 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.info {
-     float: left;
-}
-
-.showtimes {
-    background-color:black;
-    color:white;
-    padding:20px;
-    float:right;
-}
 .container {
   position: relative;
   width: 50%;
@@ -90,7 +80,7 @@ li.dropdown {
 
 .image {
   display: block;
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
@@ -101,7 +91,7 @@ li.dropdown {
   left: 0;
   right: 0;
   height: 100%;
-  width: 100%;
+  width: 50%;
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
@@ -120,4 +110,3 @@ li.dropdown {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-
