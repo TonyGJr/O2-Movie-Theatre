@@ -15,10 +15,19 @@
     background-repeat: none;
   } 
 
-h1, h2{
-  text-align: center;
-  color: white;
+nav {
+   background-color: rgba(0,0,0,0.5);
+   
 }
+
+.nav-wrapper {
+  display: block;
+  width: 100%;
+  margin: 0 auto; 
+  color: white;
+  text-align: center
+}
+
 
 button.accordion {
     background-color: #eee;
@@ -59,10 +68,12 @@ div.panel {
 </style>
 </head>
 <body>
-
-<h1>Frequently Asked Questions</h1>
-<br>
-<h2>General Movie Info</h2>
+<nav>
+  <div class="nav-wrapper">
+    <h1>Frequently Asked Questions</h1>
+    <h2>General Movie Info</h2>
+  </div>
+</nav>
 
 <button class="accordion">What does advertised showtime mean?</button>
   <div class="panel">
@@ -90,6 +101,16 @@ div.panel {
     </p>
   </div>
   <br>
+
+<button class="accordion">Where can I find movie times at O2?</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+      nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+  <br>
+
 
 <script>
 var acc = document.getElementsByClassName("accordion");
